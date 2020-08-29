@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MatApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorError">#ff6859</item>
+
+        <item name="android:colorBackground">@color/colorSurface</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MatAppTypographyStyles.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MatAppTypographyStyles.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MatAppTypographyStyles.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MatAppTypographyStyles.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MatAppTypographyStyles.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MatAppTypographyStyles.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MatAppTypographyStyles.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MatAppTypographyStyles.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MatAppTypographyStyles.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MatAppTypographyStyles.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MatAppTypographyStyles.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MatAppTypographyStyles.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MatAppTypographyStyles.Overline</item>
+
+<!--        <item name="actionOverflowMenuStyle">@style/Widget.MatApp.PopupMenu.Overflow</item>-->
+        <item name="actionBarPopupTheme">@style/Widget.MatApp.PopupMenu.Overflow</item>
+
+    </style>
+
+    <style name="Widget.MatApp.PopupMenu.Overflow" parent="Widget.MaterialComponents.PopupMenu.Overflow">
+        <item name="popupMenuBackground">@drawable/popup_menu_background</item>
+        <item name="elevation">24dp</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance.MatAppTypographyStyles.Button</item>
+    </style>
+
+    <style name="Widget.MatApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/colorSurfaceOnSurface</item>
+        <item name="android:textColorHint">@color/colorOnSurface</item>
+        <item name="suffixTextColor">@color/colorOnSurface</item>
+        <item name="errorEnabled">true</item>
+        <item name="errorIconDrawable">@null</item>
+    </style>
+
+    <style name="Theme.MatApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="colorPrimary">@color/colorOnSurface</item>
+    </style>
+
+</resources>

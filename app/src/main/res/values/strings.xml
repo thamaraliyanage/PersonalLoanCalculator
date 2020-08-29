@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Personal Loan Calculator</string>
+    <string name="calculator_loan_amount">Amount</string>
+    <string name="calculator_loan_term">Loan Term</string>
+    <string name="calculator_loan_interest_rate">Interest Rate</string>
+    <string name="calculator_calculate">Calculate</string>
+    <string name="monthly_repayment">Monthly Repayment</string>
+    <string name="total_amount_payable">Total Amount Payable</string>
+    <string name="full_amount">Full Amount</string>
+    <string name="ok">Ok</string>
+    <string name="recent_calculations">Recent Calculations</string>
+    <string name="clear_recent_calculations">Clear Recent Calculations</string>
+    <string name="empty_list_icon">Empty List Icon</string>
+    <string name="no_recent_calculations">No recent calculations</string>
+</resources>
